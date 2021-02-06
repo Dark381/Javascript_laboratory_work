@@ -36,8 +36,8 @@ function script2(){
 }
 //кнопки для простого запуска заданий
 
-const Button_1 = document.getElementById('task1');
-Button_1.addEventListener('click', script1);
+const Button_1_1 = document.getElementById('task_1.1');//более усложненные названия, первая цифра означает раздел, вторая номер задания
+Button_1_1.addEventListener('click', script1);
 
-const Button_2 = document.getElementById('task2');
-Button_2.addEventListener('click', script2);
+const Button_1_2 = document.getElementById('task_1.2');
+Button_1_2.addEventListener('click', script2);
