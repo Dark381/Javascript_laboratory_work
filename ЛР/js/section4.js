@@ -10,7 +10,7 @@ function script1(){
 }
 function script1_1(str, fontSize){//в js можно написать функцию после ее вызова(выше в коде)
 	document.write('<a style="font-size:' + fontSize + ';">' + str+'</a><br>');
-	document.write('<a style="font-size: 28;">' + "Чтобы вернуться к списку заданий необходимо перезагрузить страницу"+'</a>');//
+	document.write('<p><a class = "link" href="index.html">список заданий</a></p>');
 }
 	
 
@@ -32,7 +32,7 @@ function script2(){
 
 	
 document.write('</table>');//конец таблицы
-document.write('<a style="font-size: 28;">' + "Чтобы вернуться к списку заданий необходимо перезагрузить страницу"+'</a>');
+document.write('<p><a class = "link" href="index.html">список заданий</a></p>');
 }
 
 

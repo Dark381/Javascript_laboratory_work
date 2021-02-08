@@ -8,6 +8,8 @@ function script1(){//нумерация скриптов соответству�
 	document.write('<input type="submit" value="Login">');
 	document.write('</p>');
 	document.write('</form>');
+	
+	document.write('<p><a class = "link" href="index.html">список заданий</a></p>');
 }   
 
 function script2(){	
@@ -33,7 +35,7 @@ function script2(){
 	document.write('</tr>' );
 	
 	document.write('</table>');
-	document.write('<a style="font-size: 28;">' + "Чтобы вернуться к списку заданий необходимо перезагрузить страницу"+'</a>');
+	document.write('<p><a class = "link" href="index.html">список заданий</a></p>');
 }
 
 function script3(){
@@ -43,6 +45,8 @@ function script3(){
         '<tr><td>3</td><td>4</td><td>5</td></tr>'+
         '<tr><td>6</td><td>7</td><td>8</td></tr></table>';
 	document.write(str);
+	
+	document.write('<p><a class = "link" href="index.html">список заданий</a></p>');
 }
 //кнопки для простого запуска заданий
 
